@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to my personal website!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif; /* Use a more appealing font */
+            height: 100vh; /* Full height of the viewport */
+            margin: 0;
+            display: flex;
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            background-color: #f4f4f4; /* A light background color */
+        }
+
+        header img {
+            border-radius: 50%;
+            border: 3px solid #333;
+            width: 150px;
+            height: 150px;
+        }
+
+
+        header, main, footer {
+            text-align: center; /* Center content within these elements */
+        }
+
+        /* Colors for the links */
+        a[href*="scholar.google"] {
+            color: #4285F4; /* A Google blue color */
+        }
+
+        a[href*="linkedin"] {
+            color: #0077B5; /* LinkedIn's color */
+        }
+
+        a[href*="gitlab"] {
+            color: #FC6D27; /* GitLab's color */
+        }
+
+        a[href*="goodreads"] {
+            color: #372213; /* Goodreads' brown color */
+        }
+
+        /* Style for hover over the links */
+        footer a {
+            margin-right: 15px;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div> <!-- A container for our content to help with centering -->
+        <header>
+            <h1>Welcome!</h1>
+            <img src="assets/profile.jpg" alt="Profile Picture" width="200">
+        </header>
+        <main>
+            <p>Hi, I am Xiaodong Zhang, and here's a bit about me:</p>
+            <p>applied statistics, reading, and sports.</p>
+        </main>
+        <footer>
+            <a href="https://scholar.google.com/citations?user=e2ZnkzoAAAAJ&hl=en" target="_blank">
+                Google Scholar
+            </a>
+            <a href="https://www.linkedin.com/in/xdotzhang/" target="_blank">
+                LinkedIn
+            </a>
+            <a href="https://gitlab.com/xiaodongzhang" target="_blank">
+                GitLab
+            </a>
+            <a href="https://www.goodreads.com/user/show/45758232-xiaodong-zhang" target="_blank">
+                Goodreads
+            </a>
+        </footer>
+    </div>
+</body>
+</html>
